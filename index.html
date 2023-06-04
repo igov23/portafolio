@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body style="background: #fff0f0;">
+    <Header><br><img src="./images/Vector.png" style="margin: 30px; color: gray;"><br><br></Header>
+<main>
+    <section>
+        <div>
+            <textarea class="textarea" required placeholder="Ingrese el texto aqui."></textarea>
+            <textarea class="muneco" id="muneco">Ningun mensaje fue encontrado</textarea>
+
+
+        </div>
+        <div class="minusc">
+            <img src="./images/exclamacion.png"> Solo letras minusculas y sin acentos.
+        </div>
+        <div>
+            <button class="boton1"  onclick="btnEncriptar()">Encriptar</button>
+            <button class="boton2" onclick="btnDesencriptar()">Desencriptar</button>
+
+        </div>
+
+    </section>
+    <aside>
+        <button class="copiar" onclick="btnCopiar()">Copiar texto</button>
+    </aside>
+<script src="./coder.js"></script>
+
+</main>
+
+</body>
+
+
+
+
+</html>

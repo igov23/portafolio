@@ -1,0 +1,108 @@
+
+
+
+.textarea{
+color: rgb(0, 0, 0);
+font-size: 16px;
+background: fixed;
+background: #fff0f0;
+border-radius: 25px;
+border: none;
+padding: 40px;
+width: 900px;
+height: 400px;
+left: 300px;
+top: 70px;
+font-family: 'Oswald', sans-serif;
+font-size: 20px;
+}
+
+
+.muneco
+{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 40px;
+    background: fixed;
+    background: #fdfbfb;
+    background-image: url(./images/muneco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    border-bottom: #e9e6e6;
+    border-bottom-style: ridge;
+    border-bottom-width: 10px;
+    border-right: #e9e6e6;
+    border-right-style: ridge;
+    border-right-width: 8px;
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    left: 1000px;
+    top: 70px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+
+}
+
+
+::placeholder
+{
+    color: #063292;
+}
+
+.muneco:focus
+{
+
+outline: none
+}
+
+.boton2
+{
+border-radius: 25px;
+background: #063292;
+color: #fff0f0;
+width: 328px;
+height: 67px;
+padding: 10px;
+position: absolute; 
+left: 500px;
+font: bold;
+font-family: 'Oswald', sans-serif;
+font-size: 21px;
+}
+
+.boton1
+{
+border-radius: 25px;
+background: #063292;
+color: #fff0f0;
+width: 328px;
+height: 67px;
+padding: 10px;
+position: absolute; 
+left: 100px;
+font-family: 'Oswald', sans-serif;
+font-size: 21px;
+}
+
+.minusc
+{
+position: relative;
+left: 100px;
+}
+
+.copiar{
+    border-radius: 25px;
+    background: #063292;
+    color: #fff0f0;
+    width: 328px;
+    height: 67px;
+    padding: 10px;
+    position: absolute; 
+    right: 500px;
+    top: 750px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 21px;
+    }
